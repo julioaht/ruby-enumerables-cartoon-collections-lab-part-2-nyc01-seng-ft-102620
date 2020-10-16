@@ -15,13 +15,13 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   i = 0
-  if planeteer_calls.any? {|i| i.lenght > 4}
-    return true
-  else
-    return false
-  i = i + 1
-  end
-
+   if  array.any? {|i| i.length > 4}
+     return true
+   else
+     return false
+   i = i + 1
+   end
+ end
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
   # Return the boolean result of this check
 end
